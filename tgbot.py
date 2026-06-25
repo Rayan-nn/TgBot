@@ -1,6 +1,5 @@
 import re
 import sys
-import os
 import telebot
 from telebot import types
 from texts import *
@@ -11,7 +10,7 @@ if DEBUG:
     print("Режим откладки включён")
 
 
-bot = telebot.TeleBot(os.getenv('8851650718:AAH7LYAN-YFBRXY4gW-34KyOaL1FYLemPm8'))
+bot = telebot.TeleBot('8851650718:AAH7LYAN-YFBRXY4gW-34KyOaL1FYLemPm8')
 
 
 
